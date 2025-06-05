@@ -12,10 +12,10 @@ pip install -r requirements.txt
 
 ## Training
 
-Run the training script:
+Run the training script and follow the prompts to train and/or backtest:
 
 ```bash
 python src/train.py
 ```
 
-This downloads the last five years of NVDA data and trains a small Transformer using sequences of technical features.
+The script downloads five years of NVDA data, trains a small Transformer on sequences of technical indicators and can optionally backtest the strategy. It automatically uses an NVIDIA GPU if one is available.
